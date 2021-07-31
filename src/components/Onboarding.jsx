@@ -1,6 +1,5 @@
 import React from "react";
-import illustration from "../media/Illustration.png";
-import arrow from "../media/arrow-icon.png";
+import { Link } from "react-router-dom";
 
 const Onboarding = () => {
   return (
@@ -8,7 +7,7 @@ const Onboarding = () => {
       <div className="hero-section">
         <img
           className="background-banner"
-          src={illustration}
+          src="./media/Illustration.png"
           alt="illustration"
         />
         <h2 className="heading-text">
@@ -16,7 +15,9 @@ const Onboarding = () => {
         </h2>
       </div>
       <div className="arrow-icon">
-        <img src={arrow} alt="arrow-icon" />
+        <Link to="/home">
+          <img src="./media/arrow-icon.png" alt="arrow-icon" />
+        </Link>
       </div>
     </section>
   );
