@@ -1,11 +1,11 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navigation = props => {
   return (
     <div className="navigation-bar">
       <nav className="container">
-        <ul clasName="flex">
+        <ul className="flex">
           <li>
             <Link to="/home">
               <img src={props.homeIcon} alt="home-icon" />

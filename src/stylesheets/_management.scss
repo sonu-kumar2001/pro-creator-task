@@ -1,0 +1,134 @@
+.storage-management {
+  position: relative;
+  .storage-header {
+    margin-top: 0.75rem;
+    img {
+      width: max-content;
+      margin-right: 5rem;
+    }
+    h2 {
+      color: #345095;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+  .chart-box {
+    display: flex;
+    justify-content: center;
+  }
+  .chart-details {
+    margin: -1rem 0 3rem 0;
+    .chart-logo {
+      height: 2rem;
+      width: 2rem;
+      border-radius: 4px;
+    }
+    p {
+      font-size: 1.3rem;
+      color: #8c909c;
+      margin-top: 0.65rem;
+    }
+    .music {
+      background-color: #2196f3;
+    }
+    .images {
+      background-color: #ffc107;
+    }
+    .archives {
+      background-color: #4ac367;
+    }
+    .documents {
+      background-color: #8d6e63;
+    }
+    .video {
+      background-color: #00bcd4;
+    }
+  }
+  .chart-details :nth-child(1) {
+    .music {
+      margin-left: 0.75rem;
+    }
+  }
+  .chart-details :nth-child(2) {
+    .images {
+      margin-left: 1rem;
+    }
+  }
+  .chart-details :nth-child(3) {
+    .archives {
+      margin-left: 1.4rem;
+    }
+  }
+  .chart-details :nth-child(4) {
+    .documents {
+      margin-left: 2.4rem;
+    }
+  }
+  .chart-details :nth-child(5) {
+    .video {
+      margin-left: 0.75rem;
+    }
+  }
+  .file-folder-section {
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .least-used {
+      color: #5786f8;
+    }
+    h4 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #8c909c;
+      text-transform: uppercase;
+    }
+  }
+  .folder-active-bar {
+    width: 28%;
+    height: 0.75rem;
+    background-color: #5786f8;
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    left: 2.2rem;
+    bottom: 37.5rem;
+  }
+
+  .list-file {
+    margin-top: 2rem;
+    .file {
+      margin-bottom: 3rem;
+      .flex {
+        align-items: center;
+        img {
+          width: 5.2rem;
+          height: 5.2rem;
+          object-fit: contain;
+        }
+        .content {
+          margin-left: 1.5rem;
+          h3 {
+            color: rgb(36, 40, 51);
+            font-size: 1.6rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 1.5rem;
+            color: #989daa;
+          }
+        }
+      }
+    }
+    .three-dots {
+      width: 4px;
+      height: 18px;
+      object-fit: contain;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import Header from "./Header";
 
@@ -22,7 +23,9 @@ export default function Profile() {
             <div className="progress-bar-1">
               <div className="inner-progress-1"></div>
             </div>
-            <button>Increase storage space </button>
+            <Link to="/management">
+              <button>Increase storage space </button>
+            </Link>
           </div>
         </div>
       </div>
