@@ -7,10 +7,14 @@ const Navigation = props => {
       <nav className="container">
         <ul clasName="flex">
           <li>
-            <img src={props.homeIcon} alt="home-icon" />
+            <Link to="/home">
+              <img src={props.homeIcon} alt="home-icon" />
+            </Link>
           </li>
           <li>
-            <img src={props.localStorage} alt="tick-mark" />
+            <Link to="/localstorage">
+              <img src={props.localStorage} alt="tick-mark" />
+            </Link>
           </li>
           <li>
             <img src={props.plusIcon} alt="plus-icon" />
