@@ -1,0 +1,116 @@
+.profile-section {
+  .profile-header {
+    margin: 1rem 0;
+    h2 {
+      font-size: 3rem;
+      color: #345095;
+      font-weight: 600;
+    }
+    img {
+      width: 2rem;
+      height: 2rem;
+      object-fit: contain;
+    }
+  }
+  .user-details {
+    .img-container {
+      margin-top: 3rem;
+      img {
+        width: min-content;
+      }
+    }
+    .storage-detail {
+      p {
+        color: #abc3fc;
+        font-size: 2rem;
+        font-weight: bold;
+        strong {
+          color: #3c64c7;
+          font-size: 2.5rem;
+          font-weight: 600;
+        }
+      }
+      .progress-bar-1 {
+        background-color: #abc3fc;
+        width: 100%;
+        height: 6px;
+        border-radius: 4px;
+        margin: 0.7rem 0;
+        .inner-progress-1 {
+          width: 70%;
+          border-radius: 4px;
+          height: 6px;
+          background-color: #ff5998;
+        }
+      }
+      button {
+        width: 100%;
+        outline: 0;
+        border: 2px solid #ff5998;
+        padding: 1rem 0;
+        background-color: #ffffff;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #ff5998;
+        border-radius: 2.2rem;
+        margin: 1.2rem 0 0 0;
+      }
+    }
+  }
+  .about {
+    .about-box {
+      background-color: #f5f7fc;
+      padding: 2rem;
+      border-radius: 4px;
+      margin-bottom: 1.3rem;
+      h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #48484d;
+      }
+      img {
+        width: min-content;
+      }
+    }
+    .devices {
+      p {
+        font-size: 1.4rem;
+        color: #989daa;
+      }
+    }
+    .camera-uploads {
+      .switch-on {
+        width: 7.3rem;
+        height: 3.5rem;
+        background-color: #5786f8;
+        border-radius: 1.8rem;
+        position: relative;
+        .circle {
+          height: 2.6rem;
+          width: 2.6rem;
+          background-color: #ffffff;
+          border-radius: 50%;
+          position: absolute;
+          right: 5px;
+          top: 4px;
+        }
+      }
+    }
+    .tarnsfer-files {
+      .switch-of {
+        width: 7.3rem;
+        height: 3.5rem;
+        background-color: #959fba;
+        border-radius: 1.8rem;
+        .circle {
+          height: 2.6rem;
+          width: 2.6rem;
+          background-color: #ffffff;
+          border-radius: 50%;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

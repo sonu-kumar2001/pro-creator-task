@@ -25,7 +25,9 @@ const Navigation = props => {
             </Link>
           </li>
           <li>
-            <img src={props.profileIcon} alt="avatar" />
+            <Link to="/profile">
+              <img src={props.profileIcon} alt="avatar" />
+            </Link>
           </li>
         </ul>
       </nav>
