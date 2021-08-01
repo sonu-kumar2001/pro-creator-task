@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import LocalStorage from "./components/LocalStorage";
 import Notification from "./components/Notification";
 import Profile from "./components/Profile";
+import StorageManagement from "./components/StorageManagement";
+
 const App = () => {
   return (
     <Router>
@@ -14,6 +16,7 @@ const App = () => {
         <Route exact path="/localstorage" component={LocalStorage} />
         <Route exact path="/notification" component={Notification} />
         <Route exact path="/profile" component={Profile} />
+        <Route exact path="/management" component={StorageManagement} />
       </Switch>
     </Router>
   );

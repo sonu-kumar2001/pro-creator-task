@@ -1,0 +1,91 @@
+.main {
+  height: 30vh;
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background: white;
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #778ab8;
+    }
+  }
+  .middle {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+  }
+  .hide {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .outer {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+  }
+  .middle {
+    background: conic-gradient(
+      rgba(255, 255, 255, 0.2) 0deg,
+      rgba(255, 255, 255, 0.2) 10deg,
+      rgba(255, 255, 0, 0.2) 10deg,
+      rgba(255, 255, 0, 0.2) 30deg,
+      rgba(255, 255, 255, 0.2) 30deg,
+      rgba(255, 255, 255, 0.2) 40deg,
+      rgba(0, 128, 0, 0.2) 40deg,
+      rgba(0, 128, 0, 0.2) 80deg,
+      rgba(255, 255, 255, 0.2) 80deg,
+      rgba(255, 255, 255, 0.2) 90deg,
+      rgba(0, 0, 255, 0.2) 90deg,
+      rgba(0, 0, 255, 0.2) 120deg,
+      rgba(255, 255, 255, 0.2) 120deg,
+      rgba(255, 255, 255, 0.2) 130deg,
+      rgba(165, 42, 42, 0.2) 130deg,
+      rgba(165, 42, 42, 0.2) 180deg,
+      rgba(255, 255, 255, 0.2) 180deg,
+      rgba(255, 255, 255, 0.2) 190deg,
+      rgba(0, 255, 255, 0.2) 190deg,
+      rgba(0, 255, 255, 0.2) 290deg,
+      rgba(255, 255, 255, 0.2) 290deg,
+      rgba(255, 255, 255, 0.2) 300deg,
+      rgba(60, 179, 113, 0.2) 300deg,
+      rgba(60, 179, 113, 0.2) 360deg
+    );
+  }
+  .outer {
+    background: conic-gradient(
+      white 0deg,
+      white 10deg,
+      #ffc107 10deg,
+      #ffc107 30deg,
+      white 30deg,
+      white 40deg,
+      #4bc367 40deg,
+      #4bc367 80deg,
+      white 80deg,
+      white 90deg,
+      blue 90deg,
+      blue 120deg,
+      white 120deg,
+      white 130deg,
+      brown 130deg,
+      brown 180deg,
+      white 180deg,
+      white 190deg,
+      cyan 190deg,
+      cyan 290deg,
+      white 290deg,
+      white 300deg,
+      mediumseagreen 300deg,
+      mediumseagreen 360deg
+    );
+  }
+}
