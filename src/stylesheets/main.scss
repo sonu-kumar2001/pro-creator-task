@@ -8,7 +8,8 @@
 @media screen and (max-width: 768px) {
   @import "flex";
   @import "onboarding";
+  @import "header";
   @import "navigation";
   @import "home";
-  @import "header";
+  @import "local_storage";
 }

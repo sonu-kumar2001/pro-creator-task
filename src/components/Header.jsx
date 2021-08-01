@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <img src="./media/home-wave.svg" alt="wave" />
+      <img src="./media/wave.png" alt="wave" />
       <nav className="flex-between container">
         <p>9:41</p>
         <ul className="flex">

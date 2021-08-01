@@ -1,0 +1,84 @@
+.local-storage-section {
+  background-color: #ffffff;
+  position: relative;
+  .hero {
+    margin-top: 1.5rem;
+    h1 {
+      font-size: 3.3rem;
+      color: #3a5598;
+      font-weight: 500;
+    }
+
+    .search-box {
+      margin: 2rem 0 1.4rem 0;
+      display: flex;
+      align-items: center;
+      i {
+        font-size: 2rem;
+        position: absolute;
+        left: 3.3rem;
+        color: #acadb1;
+        margin-bottom: 0.24rem;
+      }
+      input {
+        padding: 1.2rem 4.3rem;
+        width: 100%;
+        border: 0;
+        background: #edf1fa;
+        border-radius: 26px;
+      }
+      ::placeholder {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .folder-category {
+    margin: 1rem 0;
+    width: 100%;
+    position: absolute;
+    left: 12px;
+    img {
+      width: 7.2rem;
+      height: 7.2rem;
+      object-fit: contain;
+    }
+    p {
+      text-align: center;
+      margin: 1rem 0;
+      font-size: 1.4rem;
+      color: #989daa;
+    }
+  }
+
+  .list-file {
+    margin-top: 14rem;
+    .file {
+      margin-bottom: 3rem;
+      .flex {
+        align-items: center;
+        img {
+          width: 5.2rem;
+          height: 5.2rem;
+          object-fit: contain;
+        }
+        .content {
+          margin-left: 1.5rem;
+          h3 {
+            color: rgb(36, 40, 51);
+            font-size: 1.6rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 1.5rem;
+            color: #989daa;
+          }
+        }
+      }
+    }
+    .three-dots {
+      width: 4px;
+      height: 18px;
+      object-fit: contain;
+    }
+  }
+}
