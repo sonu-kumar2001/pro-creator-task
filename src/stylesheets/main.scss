@@ -1,15 +1,16 @@
 @import "reset";
 @import "base";
-@import "general";
 @import "grid";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
 
 @media screen and (max-width: 768px) {
+  @import "general";
   @import "flex";
   @import "onboarding";
   @import "header";
   @import "navigation";
   @import "home";
   @import "local_storage";
+  @import "notification";
 }

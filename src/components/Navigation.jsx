@@ -20,7 +20,9 @@ const Navigation = props => {
             <img src={props.plusIcon} alt="plus-icon" />
           </li>
           <li>
-            <img src={props.notification} alt="bell-icon" />
+            <Link to="/notification">
+              <img src={props.notification} alt="bell-icon" />
+            </Link>
           </li>
           <li>
             <img src={props.profileIcon} alt="avatar" />

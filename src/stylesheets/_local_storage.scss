@@ -35,12 +35,11 @@
   .folder-category {
     margin: 1rem 0;
     width: 100%;
-    position: absolute;
-    left: 12px;
     img {
       width: 7.2rem;
       height: 7.2rem;
       object-fit: contain;
+      margin-left: 1.2rem;
     }
     p {
       text-align: center;
@@ -51,7 +50,7 @@
   }
 
   .list-file {
-    margin-top: 14rem;
+    margin-top: 2rem;
     .file {
       margin-bottom: 3rem;
       .flex {

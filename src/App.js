@@ -3,6 +3,7 @@ import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Onboarding from "./components/Onboarding";
 import Home from "./components/Home";
 import LocalStorage from "./components/LocalStorage";
+import Notification from "./components/Notification";
 const App = () => {
   return (
     <Router>
@@ -10,6 +11,7 @@ const App = () => {
         <Route exact path="/" component={Onboarding} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/localstorage" component={LocalStorage} />
+        <Route exact path="/notification" component={Notification} />
       </Switch>
     </Router>
   );
