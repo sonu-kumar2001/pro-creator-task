@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Chart() {
   return (
-    <section className="flex main">
+    <section className="flex main container">
       <div className="outer flex">
         <div className="hide flex">
           <div className="middle flex">
